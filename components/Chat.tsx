@@ -69,7 +69,7 @@ export default function Chat({ userId, email }: ChatProps) {
         <ul className="flex flex-col gap-1.5">
           {messages.map(({ email, message }: any, index: number) => (
             <li key={index}>
-              <div className="flex flex-col gap-0.5 bg-yellow-400 text-stone-800 px-4 py2">
+              <div className="flex flex-col gap-0.5 bg-red-400 text-stone-800 px-4 py2">
                 <span className="font-bold">{email}:</span>
                 <p>{message}</p>
               </div>

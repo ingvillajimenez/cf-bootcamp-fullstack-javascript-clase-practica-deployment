@@ -13,5 +13,5 @@ export default async function PageChat() {
     return redirect("/auth/login");
   }
 
-  return <Chat userId={user.id} />;
+  return <Chat userId={user.id} email={user.email} />;
 }
